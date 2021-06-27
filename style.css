@@ -128,7 +128,7 @@ section{
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 28px;
   float: left;
-  text-align: center;
+  text-align: none;
   color: navy;
 }
 
@@ -157,9 +157,8 @@ section{
 }
 
 .section-button button{
-    margin: 0px 0px 0px 0px;
-    border-radius: 12px;
-    padding: 8px 21px;
+    border-radius: 15px;
+    padding: 7px 21px;
     border: 1px solid black;
     background-color: #FF3946;
     margin: 207px -244px;
@@ -175,9 +174,9 @@ section{
 }
 
 .section-link div{
-  margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     border-radius: 12px;
-    padding: 8px 21px;
+    padding: 6px 21px;
     margin: 207px -108px;
     float: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -194,3 +193,77 @@ section{
   color: slateblue;
 }
 
+.second-section{
+  float: left;
+  margin: 427px -269px;
+  display: grid;
+  z-index: 0px;
+}
+
+.second-section div{
+  color: #314584;
+  text-align: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.second-section-button{
+  float: left;
+  margin: 530px -265px;
+}
+
+.second-section-button button{
+  border-radius: 15px;
+  border: 0px;
+  padding: 6px 18px;
+  background-color: #FF3946;
+}
+
+.second-section-button a{
+  text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 8px;
+  color: whitesmoke;
+}
+
+.second-section-button a:hover{
+  color: darkslateblue;
+}
+
+.grid-boxes{
+  float: right;
+  margin: 285px 278px;
+}
+
+.grid-boxes .grid-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: white;
+  padding: 0px 68px;
+  grid-gap: 50px;
+}
+
+.grid-item{
+  background-color: white;
+  border: 0px;
+  padding: 82px 26px; 
+  font-size: 20px;
+  text-align: left;
+  box-shadow: 0px 3px 4px 1px gray;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #314584;
+}
+
+.grid-item, .grid-item1 > p{
+  line-height: 18px;
+}
+
+.grid-item1{
+  background-color: white;
+  border: 0px;
+  padding: 74px 26px;
+  font-size: 20px;
+  text-align: left;
+  box-shadow: 0px 3px 4px 1px gray;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #314584;
+}
