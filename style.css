@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #FFFFFF;
+    background-color: white;
 }
 
  .header{
@@ -52,10 +52,10 @@ img {
     z-index: 0;
   }
 
-.dropdown { 
+.dropdown > .dropbtn { 
     position: static;
     display: inline-block;
-    padding: 0px 0px;
+    padding: 13px 16px;
     margin: 40px 160px;
 }
 
@@ -63,23 +63,18 @@ img {
   display: none;
   position: absolute;
   background-color: transparent;
+  margin: 76px 711px;
   min-width: 120px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .dropdown-content a{
   color: black;
-  padding: 14px 8px;
+  margin: 20px 20px;
+  padding: 7px 10px;
   text-decoration: none;
   display: block;
 }
-
-/* .Hov-he{
-    line-height: -600px;
-    margin-top: -230px;
-    margin-left: 220px;
-    margin-right: 20px;
-} */
 
 .dropdown-content a:hover {background-color: blanchedalmond}
 
@@ -91,27 +86,20 @@ img {
     background-color: goldenrod;
   }
 
-  /* .Contact-Us{
-    margin: 10px -20px; padding: 0px;
-  }
-
-.Contact-Us a {
-  margin: 0px 40px;
-} */
-
-section{
+/* section{
     position: relative;
-    text-align: center;
-}
+    text-align: right;
+  } */
 
 .navbar-right{
   float: right;
-  margin: 50px -350px;
+  margin: -69px 12px;
+  word-spacing: 2px;
 }
 
 .navbar-right a{
-  margin: 0px 0px;
-  padding: 10px 10px;
+  margin: 43px 303px;
+  padding: 11px 10px;
   border: 1px solid black;
   box-shadow: 2px 2px 3px gray;
   text-decoration: none;
@@ -122,12 +110,13 @@ section{
 
 .first-one{
   margin-top: 40px;
-  margin-left: 200px;
+  margin-left: 152px;
   padding: 0;
   letter-spacing: 1;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 28px;
   float: left;
+  text-align: left;
   text-align: none;
   color: navy;
 }
@@ -151,7 +140,7 @@ section{
 .section-image img{
   height: 400px;
   float: right;
-  margin: -4px -363px;
+  margin: -172px 208px;
   position: relative;
   z-index: -1;
 }
@@ -161,12 +150,13 @@ section{
     padding: 7px 21px;
     border: 1px solid black;
     background-color: #FF3946;
-    margin: 207px -244px;
+    margin: 11px 171px;
     float: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .section-button button a{
+  margin-top: 0px;
   text-decoration: none;
   color: #FFFFFF;
   font-size: 11px;
@@ -177,7 +167,7 @@ section{
     margin: 0px 0px 0px 0px;
     border-radius: 12px;
     padding: 6px 21px;
-    margin: 207px -108px;
+    margin: 10px -171px;
     float: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -195,7 +185,7 @@ section{
 
 .second-section{
   float: left;
-  margin: 427px -269px;
+  margin: 262px -171px;
   display: grid;
   z-index: 0px;
 }
@@ -208,12 +198,13 @@ section{
 
 .second-section-button{
   float: left;
-  margin: 530px -265px;
+  margin: -40px -153px;
 }
 
 .second-section-button button{
   border-radius: 15px;
   border: 0px;
+  margin: 362px -168px;
   padding: 6px 18px;
   background-color: #FF3946;
 }
@@ -238,13 +229,15 @@ section{
   display: grid;
   grid-template-columns: auto auto;
   background-color: white;
-  padding: 0px 68px;
-  grid-gap: 50px;
+  padding: -20px 68px;
+  grid-gap: 164px;
+  height: 60px;
 }
 
 .grid-item{
   background-color: white;
   border: 0px;
+  margin: -110px -59px;
   padding: 82px 26px; 
   font-size: 20px;
   text-align: left;
@@ -260,10 +253,197 @@ section{
 .grid-item1{
   background-color: white;
   border: 0px;
+  margin: -110px -3px;
   padding: 74px 26px;
   font-size: 20px;
   text-align: left;
   box-shadow: 0px 3px 4px 1px gray;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: #314584;
+}
+
+.second_image{
+  padding-left: 115px;
+  margin: 0px;
+}
+
+.second_image img{
+  margin: -60px 5px -24px 5px;
+  width: 332px;
+}
+
+.Third_Section{
+  margin: -33px 154px;
+  float: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Third_Section h5{
+  color: #FF3946;
+  font-size: 9px;
+  word-spacing: 2px;
+  line-height: 33px;
+  letter-spacing: 0.5px;
+}
+
+.Third_Section h1{
+  color: #314584; 
+  font-size: x-large;
+}
+
+.Third_Section p{
+  font-size: x-small;
+  color:#6F7DA9;
+  margin-top: 25px;
+}
+
+.Third_Section .Left_arrow{
+  color: gray;
+  line-height: 6ch;
+}
+
+.Third_Section a{
+  text-decoration: none;
+}
+
+.Third_Section .Right_arrow{
+  color: #314584;
+  margin-left: 10px;
+}
+
+.Fourth_Section{
+  float: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Fourth_Section h1{
+  margin: 120px 227px;
+  color: #314584;
+}
+
+.Fourth_Section a{
+  text-decoration: none;
+  float: right;
+}
+
+.Fourth_Section div{
+  float: right;
+  margin: -157px -193px;
+}
+.Fourth_Section span{
+  float: right;
+  margin-right: 20px;
+}
+
+.Fourth_Section .Left_arrow1{
+  color: #314584;
+  /* margin: 120px 0px ; */
+}
+
+.Fifth_Section{
+  float: right;
+  margin: -109px 441px;
+}
+
+.grid_boxes{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 15px;
+  /* grid-column-gap: 5px;
+  grid-row-gap: 5px; */
+  background-color: none;
+  padding: 10px 10px;
+}
+
+.grid_boxes > div{
+  background-color: #C3D0D8;
+  border: 77px solid transparent;
+  padding-right: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.Fifth_Section > p{
+  text-align: center;
+  margin-top: 25px;
+  font-size: x-small;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #FF3946;
+}
+
+.Fifth_Section  a{
+  text-decoration: none;
+  color: #214acf;
+}
+
+.Fifth_Section a:hover{
+  color:cornflowerblue ;
+}
+
+.Sixth_Section{
+  float: left;
+  margin-top: 200px;
+  margin-left: 100px;
+}
+
+.Sixth_Section p{
+  color: #FF3946;
+  font-size: xx-small;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 120px;
+}
+
+.Sixth_Section h2{
+  color: #314584;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 116px;
+  margin-top: 10px;
+}
+
+.sgrid_boxes{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  border: 77px transparent;
+  grid-gap: 15px;
+  background-color: none;
+  margin: 73px 120px;
+}
+
+.sgrid_boxes div{
+  background-color: #C3D0D8;
+  border: 0px solid transparent;
+  padding-right: 195px;
+  padding-top: 210px;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+.Sixth_Section span{
+  float: right;
+  margin: 0px 60px;
+  color: #314584;
+}
+
+.Sixth_Section a{
+  text-decoration: none;
+  color: #FF3946;
+}
+
+.Sixth_Section_div{
+  float: right;
+  margin: -157px -193px;
+}
+
+.Sixth_Section_div > .Right_arrow3{
+  padding-left: 200px;
+  margin: 0px;
+}
+
+.Sixth_Section_div > .Left_arrow4{
+  margin: 0px;
+}
+
+.sgrid_boxes > .f1{
+  background-color: #FF3946;
 }
